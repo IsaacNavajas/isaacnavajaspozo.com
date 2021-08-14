@@ -1,0 +1,12 @@
+como va a ser el proyecto - 
+
+vamos hacer un array con los valores importantes de cada uno
+en el html vamos a recorrerlos con cuadrados 
+y al hacer hoverr cambiara a un fondo de color
+y al hacer click en el cuadrado mostrara todo los titulos en pequeño 
+con los valores: titulo, fecha, horas, sitio
+(y si se puede un pequeño buscador encima)
+
+
+tendre que meter las legalidades oportunas 
+y currarme un logo
