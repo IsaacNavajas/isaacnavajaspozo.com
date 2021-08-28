@@ -245,11 +245,13 @@ a:hover{text-decoration: none; color:#9c3a16 !important;} a{text-decoration: non
     height: 30px;
     line-height: 30px;
     text-align: center;
+    font-size: 13px;
     
   }
 
   .cambioresultadockick{
       color:white !important;
+      font-size: 13px;
   }
 
 
