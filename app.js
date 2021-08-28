@@ -15,11 +15,29 @@ new Vue({
             diplomaturas: 
             [
 
+                // CADA DE UCAM
+                {id:5, titulo:'UCAM UNIVERSIDAD', activate: true, descripcion:'La Universidad Católica San Antonio, conocida también como Universidad Católica de Murcia (UCAM), es una universidad privada, católica, ubicada en La Ñora, pedanía del municipio de Murcia (España).', 
+                imagen:'./src/UCAM.jpg',
+                    diplomas:[
+                        
+                            ]
+                },
+
+                // CADA DE TITULACIONES
+                {id:4, titulo:'TITULACIONES', activate: true, descripcion:'Titulación académica o grado académico, es una distinción dada por la institución educativa, generalmente después de la terminación exitosa del programa de estudios. ', 
+                imagen:'./src/titulaciones.jpg ',
+                    diplomas:[
+                            
+                            {id:1, titulo:'CFGM Electronica', fecha:'2012', horas:'2000', },
+                            {id:2, titulo:'CFGM Teleco', fecha:'2013', horas:'2000', }
+                            ]
+                },
+
                 // CADA DE EDX
                 {id:5, titulo:'EDX', activate: true, descripcion:'EdX trabaja con las universidades y organizaciones líderes a nivel mundial para ofrecer cursos en línea de alta calidad a estudiantes de todo el mundo. Cada secuencia se compone de distintos recursos de aprendizaje como videos,podcasts, lecturas, foros de discusión, infografías; y ejercicios de evaluación o interacción como evaluaciones de opción múltiple, preguntas de respuesta abierta, sondeos, preguntas de abiertas con revisión de pares, drag and drop, etc. Los participantes deberán completar estas actividades para alcanzar el puntaje requerido y así, de necesitarlo, obtener el certificado de aprobación.', 
                 imagen:'./src/edx.png',
                     diplomas:[
-                        
+                            {id:1, titulo:'HarvardX - React', fecha:'05/2021', horas:'20'}
                             ]
                 },
 
@@ -73,31 +91,9 @@ new Vue({
                             ]
                 },
 
-                // CADA DE TITULACIONES
-                {id:4, titulo:'TITULACIONES', activate: true, descripcion:'Titulación académica o grado académico, es una distinción dada por la institución educativa, generalmente después de la terminación exitosa del programa de estudios. ', 
-                imagen:'./src/titulaciones.jpg ',
-                    diplomas:[
-                            
-                            {id:1, titulo:'CFGM Electronica', fecha:'2012', horas:'2000', },
-                            {id:2, titulo:'CFGM Teleco', fecha:'2013', horas:'2000', }
-                            ]
-                },
-
-
-                                
-                // CADA DE PVUE.JS
-                {id:1, titulo:'VUE.JS', activate: true, descripcion:'Vue.js es un open-source model–view–viewmodel (MVVM al igual que Angular), se anuncia como un «framework progresivo». Esta calificación nos indica que en realidad con Vue podemos crear todo tipo de desarrollos. Podrían ser componentes sencillos, que implementan una parte determinada de una aplicación web, pero también aplicaciones frontend completas, con su sistema de routing y cantidad de lógica de negocio, sistemas de bloques/componentes, render declarativo, manejos de estados, build system... Vue ofrece desde su pagina oficial un sistema de aprendizaje en el que ir mejorando en cada fundamento de este framework hasta finalmente llegar a una Masterclass con titulación.', 
-                imagen:'./src/vue.jpg',
-                    diplomas:[
-                            {id:1, titulo:'Vue.js 3 Fundamentals', fecha:'07/2021', horas:'2'}
-                            ]
-                },
-
-
-
 
                 // CADA DE CURSOS OFICIALES
-                {id:6, titulo:'CURSOS OFICIALES', activate: true, descripcion:'¿Que mejor forma de aprender que desde la pagina oficial? El superar cursos oficiales ayuda al estudiante a tener un entendimiento mas elaborado de la practica que le ocupa, uno de estos ejemplo puede ser desde gimp.org.es o university.mongodb.com. Como otras plataforma puntuales y completamente generica, tambien podemos contar con Udemy, Mastermind, pluralsight...', 
+                {id:6, titulo:'CURSOS OFICIALES', activate: true, descripcion:'¿Que mejor forma de aprender que desde la pagina oficial? El superar cursos oficiales ayuda al estudiante a tener un entendimiento mas elaborado de la practica que le ocupa, uno de estos ejemplo puede ser desde gimp.org.es, university.mongodb.com, vueschool.io, elementor.com/academy... Como otras plataforma puntuales y completamente generica, tambien podemos contar con Udemy, Mastermind, pluralsight...', 
                 imagen:'./src/LinuxUno.png',
                     diplomas:[
                             {id:1, titulo:'LIBROS', fecha:'-/-', horas:'--', href:'./src/titulos/cursosoficiales/Libros.rar'},
@@ -107,7 +103,8 @@ new Vue({
                             {id:5, titulo:'Gimp', fecha:'06/2021', horas:'11', href:'./src/titulos/cursosoficiales/gimp.pdf'},
                             {id:6, titulo:'A131 Mongodb', fecha:'06/2021', horas:'2', href:'./src/titulos/cursosoficiales/A131 Mongodb.pdf'},
                             {id:7, titulo:'M100 Mongodb', fecha:'06/2021', horas:'3', href:'./src/titulos/cursosoficiales/M100 Mongodb.pdf'},
-                            {id:8, titulo:'Linux', fecha:'07/2021', horas:'9', href:'./src/titulos/cursosoficiales/LINUX.pdf'}
+                            {id:8, titulo:'Linux', fecha:'07/2021', horas:'9', href:'./src/titulos/cursosoficiales/LINUX.pdf'},
+                            {id:9, titulo:'Vue.js 3 Fundamentals', fecha:'07/2021', horas:'2'}
                             ]
                 }
                
