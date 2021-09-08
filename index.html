@@ -71,7 +71,7 @@
                 <div class="row" v-for="b in d.diplomas" :key="b.titulo">
                   <!-- platzi carreras --> 
                   <div v-if="b.separador">
-                    <div  class="titulosinckick"> {{b.tituloseparador}} </div>
+                    <div  class="titulosinckick"> {{b.tituloseparador.toUpperCase()}} </div>
                       <div class="row">
                         <p class="col-6 titulockick">TITULO</p>
                         <p class="col-3 titulockick">FINALIZA</p>

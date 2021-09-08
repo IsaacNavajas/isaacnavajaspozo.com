@@ -33,13 +33,14 @@ new Vue({
                             ]
                 },
 
-                // CADA DE EDX
-                {id:5, titulo:'EDX', activate: true, descripcion:'EdX trabaja con las universidades y organizaciones líderes a nivel mundial para ofrecer cursos en línea de alta calidad a estudiantes de todo el mundo. Cada secuencia se compone de distintos recursos de aprendizaje como videos,podcasts, lecturas, foros de discusión, infografías; y ejercicios de evaluación o interacción como evaluaciones de opción múltiple, preguntas de respuesta abierta, sondeos, preguntas de abiertas con revisión de pares, drag and drop, etc. Los participantes deberán completar estas actividades para alcanzar el puntaje requerido y así, de necesitarlo, obtener el certificado de aprobación.', 
-                imagen:'./src/edx.png',
+                // CADA DE PROYECTOS DE PENTESTING
+                {id:3, titulo:'PROYECTOS DE PENTESTING', activate: true, descripcion:'En mi tiempo libre me gusta simular ataques informaticos para aprender de seguridad informatica, programación y redes, me parece la forma de llevar todo lo aprendido al limite hasta encontrar laa vulnerabilidades. Todos estos ataques han sido simulados con una Raspberry pi 400 y como sistema operativo Kali Linux.', 
+                imagen:'./src/proyecto.png',
                     diplomas:[
-                            {id:1, titulo:'HarvardX - React', fecha:'05/2021', horas:'20'}
+
                             ]
                 },
+
 
 
                 // CADA DE PLATZI
@@ -87,6 +88,17 @@ new Vue({
                             {id:2, titulo:'Drllo PHP', fecha:'05/2020', horas:'-', href:'./src/titulos/carrerasdeplatzi/DesarrollowebbackendconPHP.pdf'}
                             ] 
                 },
+                
+
+
+                // CADA DE EDX
+                {id:5, titulo:'EDX', activate: true, descripcion:'EdX trabaja con las universidades y organizaciones líderes a nivel mundial para ofrecer cursos en línea de alta calidad a estudiantes de todo el mundo. Cada secuencia se compone de distintos recursos de aprendizaje como videos,podcasts, lecturas, foros de discusión, infografías; y ejercicios de evaluación o interacción como evaluaciones de opción múltiple, preguntas de respuesta abierta, sondeos, preguntas de abiertas con revisión de pares, drag and drop, etc. Los participantes deberán completar estas actividades para alcanzar el puntaje requerido y así, de necesitarlo, obtener el certificado de aprobación.', 
+                imagen:'./src/edx.png',
+                    diplomas:[
+                            {id:1, titulo:'HarvardX - React', fecha:'05/2021', horas:'20'}
+                            ]
+                },
+
 
 
                 // CADA DE CURSOS OFICIALES
@@ -106,13 +118,7 @@ new Vue({
                 },
 
                 
-                // CADA DE PROYECTO
-                {id:3, titulo:'PROYECTO', activate: true, descripcion:'Actualmente trabajando en ello.', 
-                imagen:'./src/proyecto.png',
-                    diplomas:[
 
-                            ]
-                },
 
                
             ],
