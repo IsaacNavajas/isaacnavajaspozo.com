@@ -69,11 +69,26 @@
                   <p class="col-3 titulockick">HORAS</p>
                 </div>
                 <div class="row" v-for="b in d.diplomas" :key="b.titulo">
-                  <a v-if="!b.href" class="col-6 resultadockick" :href="b.href" target="_blank" download><div v-if="!b.href" class="cambioresultadockick"> {{count + b.id}} - {{b.titulo}}</div></a>
+                  <!-- platzi carreras --> 
+                  <div v-if="b.separador">
+                    <div  class="titulosinckick"> {{b.tituloseparador}} </div>
+                      <div class="row">
+                        <p class="col-6 titulockick">TITULO</p>
+                        <p class="col-3 titulockick">FINALIZA</p>
+                        <p class="col-3 titulockick">HORAS</p>
+                        
+                      </div>
+                    </div>
+
+                  <a v-if="!b.href" class="col-6 resultadockick" :href="b.href" target="_blank" download>
+                    <!-- si no tienen href que no tengan vinculo de descarga --> 
+                      <div v-if="!b.href" class="cambioresultadockick"> {{count + b.id}} - {{b.titulo}}</div>
+                  </a>
                   <a v-if="b.href" class="col-6 resultadockick" :href="b.href" target="_blank" download>{{count + b.id}} - {{b.titulo}}</a>
                   <p class="col-3 resultadockick">{{b.fecha}}</p>
                   <p class="col-3 resultadockick">{{b.horas}}</p>
                 </div>
+                
                 
               </div>
             </transition>

@@ -43,7 +43,7 @@ new Vue({
 
 
                 // CADA DE PLATZI
-                {id:2, titulo:'PLATZI', activate: true, descripcion:'Platzi gira principalmente en educación relacionada con la programación, ya que agrupa carreras y cursos que nos permitirán desde aprender a crear un servidor adecuado para nosotros hasta crear la aplicación de nuestros sueños, sus profesores son líderes en sus campos profesionales, se distinguen entre los demás integrantes de sus comunidades e industrias. Tiene su sede en San Franciso y ha sido ganador del premio a mejor empresa de formación en línea en ASU+GSV', 
+                {id:2, titulo:'PLATZI', activate: true, descripcion:'Platzi gira principalmente en educación relacionada con la programación, ya que agrupa carreras y cursos que nos permitirán desde aprender a crear un servidor adecuado para nosotros hasta crear la aplicación de nuestros sueños, sus profesores son líderes en sus campos profesionales, se distinguen entre los demás integrantes de sus comunidades e industrias. Tiene su sede en San Franciso y ha sido ganador del premio a mejor empresa de formación en línea en ASU+GSV. Platzi mantiene un esquema de Carreras que agrupa una serie de cursos de diferentes áreas, al aprobar una carrera hemos adquirido conocimientos diversos que nos permitirán considerarnos un especialista en esa área, equivalentes en muchos casos a carreras universitarias.', 
                 imagen:'./src/platzi.jpg',
                     diplomas:[
                             {id:1, titulo:'Asincronismo Javascript', fecha:'01/2021', horas:'7', href:'./src/titulos/platzi/diploma-asincronismo-js.pdf'},
@@ -79,16 +79,13 @@ new Vue({
                             {id:31, titulo:'SQL y Mysql', fecha:'02/2021', horas:'17', href:'./src/titulos/platzi/diploma-sql-mysql.pdf'},
                             {id:32, titulo:'Vue 3', fecha:'03/2021', horas:'16', href:'./src/titulos/platzi/diploma-vuejs.pdf'},
                             {id:33, titulo:'Vue 2', fecha:'02/2021', horas:'19', href:'./src/titulos/platzi/diploma-vuejs2.pdf'},
-                            ] 
-                },
 
-                // CADA DE CARRERAS DE PLATZI
-                {id:3, titulo:'CARRERAS DE PLATZI', activate: true, descripcion:'Platzi mantiene un esquema de Carreras que agrupa una serie de cursos de diferentes áreas, al aprobar una carrera hemos adquirido conocimientos diversos que nos permitirán considerarnos un especialista en esa área, por ejemplo, para aprobar la carrera de Administración de Servidores y DevOps se debe haber aprobado los cursos de líneas de comandos, Curso de Administración de Servidores Linux, Curso Profesional de DevOps, Curso de Deploy con Amazon Web Services, Curso de Azure laaS, Curso de Azure PaaS, Curso de DigitalOcean, Curso de Deploy con Now.sh, Curso de Arquitectura de Aplicaciones con Docker y el nuevo curso de Fundamentos de IBM Cloud... Es decir, tendremos amplios y complejos conocimientos en el área, equivalentes en muchos casos a carreras universitarias.', 
-                imagen:'./src/carrerasPlatzi.png',
-                    diplomas:[
-                            {id:1, titulo:'Drllo Wordpress', fecha:'06/2021', horas:'-', href:'./src/titulos/carrerasdeplatzi/Carrerade desarrolloconWordpress.pdf'},
+
+
+                            // SEPARADOR PARA CARRERAS DE PLATZI
+                            {id:1, separador:'true', tituloseparador:'CARRERAS DE PLATZI', titulo:'Drllo Wordpress', fecha:'06/2021', horas:'-', href:'./src/titulos/carrerasdeplatzi/Carrerade desarrolloconWordpress.pdf'},
                             {id:2, titulo:'Drllo PHP', fecha:'05/2020', horas:'-', href:'./src/titulos/carrerasdeplatzi/DesarrollowebbackendconPHP.pdf'}
-                            ]
+                            ] 
                 },
 
 
@@ -106,7 +103,17 @@ new Vue({
                             {id:8, titulo:'Linux', fecha:'07/2021', horas:'9', href:'./src/titulos/cursosoficiales/LINUX.pdf'},
                             {id:9, titulo:'Vue.js 3 Fundamentals', fecha:'07/2021', horas:'2'}
                             ]
-                }
+                },
+
+                
+                // CADA DE PROYECTO
+                {id:3, titulo:'PROYECTO', activate: true, descripcion:'Actualmente trabajando en ello.', 
+                imagen:'./src/proyecto.png',
+                    diplomas:[
+
+                            ]
+                },
+
                
             ],
             

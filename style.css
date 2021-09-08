@@ -76,6 +76,7 @@ a:hover{text-decoration: none; color:#9c3a16 !important;} a{text-decoration: non
     font-family: 'Rajdhani';
 }
 
+
 .mensaje{
     position:fixed;
     float:right;
@@ -239,6 +240,15 @@ a:hover{text-decoration: none; color:#9c3a16 !important;} a{text-decoration: non
       text-align: center;
 
   }
+
+  .titulockickdorado{
+    background-color: #e95420;
+    color:white;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
 
   .resultadockick{
     color:white;
