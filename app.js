@@ -34,7 +34,7 @@ new Vue({
                 },
 
                 // CADA DE PROYECTOS DE PENTESTING
-                {id:3, titulo:'PROYECTOS DE PENTESTING', activate: true, descripcion:'En mi tiempo libre me gusta simular ataques informaticos para aprender de seguridad informatica, programación y redes, me parece la forma de llevar todo lo aprendido al limite hasta encontrar laa vulnerabilidades. Todos estos ataques han sido simulados con una Raspberry pi 400 y como sistema operativo Kali Linux.', 
+                {id:3, titulo:'PROYECTOS DE PENTESTING', activate: true, descripcion:'En mi tiempo libre me gusta simular ataques informaticos para aprender de seguridad informatica, programación y redes, me parece la forma de llevar todo lo aprendido al limite hasta encontrar las vulnerabilidades. Todos estos ataques han sido simulados con una Raspberry pi 400 y como sistema operativo Kali Linux.', 
                 imagen:'./src/proyecto.png',
                     diplomas:[
 
@@ -92,28 +92,39 @@ new Vue({
 
 
                 // CADA DE EDX
-                {id:5, titulo:'EDX', activate: true, descripcion:'EdX trabaja con las universidades y organizaciones líderes a nivel mundial para ofrecer cursos en línea de alta calidad a estudiantes de todo el mundo. Cada secuencia se compone de distintos recursos de aprendizaje como videos,podcasts, lecturas, foros de discusión, infografías; y ejercicios de evaluación o interacción como evaluaciones de opción múltiple, preguntas de respuesta abierta, sondeos, preguntas de abiertas con revisión de pares, drag and drop, etc. Los participantes deberán completar estas actividades para alcanzar el puntaje requerido y así, de necesitarlo, obtener el certificado de aprobación.', 
+                {id:5, titulo:'EDX', activate: true, descripcion:'EdX trabaja con las universidades y organizaciones líderes a nivel mundial para ofrecer cursos en línea de alta calidad a estudiantes de todo el mundo. Cada secuencia se compone de distintos recursos de aprendizaje como videos,podcasts, lecturas, foros de discusión, infografías; y ejercicios de evaluación o interacción como evaluaciones de opción múltiple, preguntas de respuesta abierta, sondeos, drag and drop, etc. Los participantes deberán completar estas actividades para alcanzar el puntaje requerido y así, de necesitarlo, obtener el certificado de aprobación.', 
                 imagen:'./src/edx.png',
                     diplomas:[
-                            {id:1, titulo:'HarvardX - React', fecha:'05/2021', horas:'20'}
+                            {id:1, titulo:'HarvardX - React', fecha:'05/2021', horas:'20', href:'https://www.edx.org/course/introduction-computer-science-harvardx-cs50x?index=product&queryID=a30e01d12afdbd72947c8a40b74e3c46&position=1'}
                             ]
                 },
 
 
 
                 // CADA DE CURSOS OFICIALES
-                {id:6, titulo:'CURSOS OFICIALES', activate: true, descripcion:'¿Que mejor forma de aprender que desde la pagina oficial? El superar cursos oficiales ayuda al estudiante a tener un entendimiento mas elaborado de la practica que le ocupa, uno de estos ejemplo puede ser desde gimp.org.es, university.mongodb.com, vueschool.io, elementor.com/academy... Como otras plataforma puntuales y completamente generica, tambien podemos contar con Udemy, Mastermind, pluralsight...', 
+                {id:6, titulo:'CURSOS OFICIALES', activate: true, descripcion:'¿Que mejor forma de aprender que desde la pagina oficial? El superar cursos oficiales ayuda al estudiante a tener un entendimiento mas elaborado de la practica que le ocupa, uno de estos ejemplo puede ser desde gimp.org.es, university.mongodb.com, vueschool.io, elementor.com/academy... Como otras plataforma puntuales y completamente genericas, tambien podemos contar con Udemy, Mastermind, pluralsight...', 
                 imagen:'./src/LinuxUno.png',
                     diplomas:[
                             {id:1, titulo:'LIBROS', fecha:'-/-', horas:'--', href:'./src/titulos/cursosoficiales/Libros.rar'},
-                            {id:2, titulo:'Wordpress', fecha:'12/2020', horas:'7,5', href:'./src/titulos/cursosoficiales/Wordpress.pdf'},
-                            {id:3, titulo:'Prestashop', fecha:'06/2021', horas:'8,5', href:'./src/titulos/cursosoficiales/Prestashop.pdf'},
-                            {id:4, titulo:'Kali linux', fecha:'06/2021', horas:'2,5', href:'./src/titulos/cursosoficiales/kali.pdf'},
-                            {id:5, titulo:'Gimp', fecha:'06/2021', horas:'11', href:'./src/titulos/cursosoficiales/gimp.pdf'},
-                            {id:6, titulo:'A131 Mongodb', fecha:'06/2021', horas:'2', href:'./src/titulos/cursosoficiales/A131 Mongodb.pdf'},
-                            {id:7, titulo:'M100 Mongodb', fecha:'06/2021', horas:'3', href:'./src/titulos/cursosoficiales/M100 Mongodb.pdf'},
-                            {id:8, titulo:'Linux', fecha:'07/2021', horas:'9', href:'./src/titulos/cursosoficiales/LINUX.pdf'},
-                            {id:9, titulo:'Vue.js 3 Fundamentals', fecha:'07/2021', horas:'2'}
+                            {id:2, titulo:'Gimp', fecha:'06/2021', horas:'11', href:'./src/titulos/cursosoficiales/gimp.pdf'},
+                            {id:3, titulo:'A131 Mongodb', fecha:'06/2021', horas:'2', href:'./src/titulos/cursosoficiales/A131 Mongodb.pdf'},
+                            {id:4, titulo:'M100 Mongodb', fecha:'06/2021', horas:'3', href:'./src/titulos/cursosoficiales/M100 Mongodb.pdf'},
+                            {id:6, titulo:'Vue.js 3 Fundamentals', fecha:'07/2021', horas:'2'},
+
+
+                            
+                            // SEPARADOR PARA UDEMY
+                            {id:1, separador:'true', tituloseparador:'UDEMY', titulo:'Wordpress', fecha:'12/2020', horas:'7,5', href:'./src/titulos/cursosoficiales/Wordpress.pdf'},
+                            {id:2, titulo:'Prestashop', fecha:'06/2021', horas:'8,5', href:'./src/titulos/cursosoficiales/Prestashop.pdf'},
+                            {id:3, titulo:'Kali linux', fecha:'06/2021', horas:'2,5', href:'./src/titulos/cursosoficiales/kali.pdf'},
+                            
+                             // SEPARADOR PARA MASTERMIND
+                             {id:1, separador:'true', tituloseparador:'MASTERMIND', titulo:'Linux', fecha:'07/2021', horas:'9', href:'./src/titulos/cursosoficiales/LINUX.pdf'},
+                             
+                            // SEPARADOR PARA CODIGOFACILITO
+                            {id:1, separador:'true', tituloseparador:'CODIGOFACILITO', titulo:'CodeIgnite', fecha:'09/2021', horas:'2,7', href:'https://codigofacilito.com/cursos/CodeIgniter'},
+
+                            
                             ]
                 },
 
