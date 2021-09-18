@@ -84,8 +84,11 @@ new Vue({
 
 
                             // SEPARADOR PARA CARRERAS DE PLATZI
-                            {id:1, separador:'true', tituloseparador:'CARRERAS DE PLATZI', titulo:'Drllo Wordpress', fecha:'06/2021', horas:'-', href:'./src/titulos/carrerasdeplatzi/Carrerade desarrolloconWordpress.pdf'},
-                            {id:2, titulo:'Drllo PHP', fecha:'05/2020', horas:'-', href:'./src/titulos/carrerasdeplatzi/DesarrollowebbackendconPHP.pdf'}
+                            {id:1, separador:'true', tituloseparador:'CARRERAS DE PLATZI', titulo:'Drllo Wordpress', fecha:'06/2021', horas:'47', href:'./src/titulos/carrerasdeplatzi/Carrerade desarrolloconWordpress.pdf'},
+                            {id:2, titulo:'Drllo PHP', fecha:'05/2020', horas:'82', href:'./src/titulos/carrerasdeplatzi/DesarrollowebbackendconPHP.pdf'},
+                            {id:3, titulo:'Drllo JS', fecha:'11/2021', horas:'74', href:''},
+                            {id:4, titulo:'Drllo Vue', fecha:'11/2021', horas:'71', href:''},
+                            {id:4, titulo:'Drllo Web', fecha:'11/2021', horas:'394', href:''}
                             ] 
                 },
                 
