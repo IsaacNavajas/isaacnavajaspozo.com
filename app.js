@@ -33,13 +33,30 @@ new Vue({
                             ]
                 },
 
-                // CADA DE PROYECTOS DE PENTESTING
-                {id:3, titulo:'PROYECTOS DE PENTESTING', activate: true, descripcion:'En mi tiempo libre me gusta simular ataques informaticos para aprender de seguridad informatica, programación y redes, me parece la forma de llevar todo lo aprendido al limite hasta encontrar las vulnerabilidades. Todos estos ataques han sido simulados con una Raspberry pi 400 y como sistema operativo Kali Linux.', 
-                imagen:'./src/proyecto.png',
+
+
+                
+
+                // CADA DE CURSOS OFICIALES
+                {id:6, titulo:'CONGRESOS HACKTIVISTAS', activate: true, descripcion:'¿Que mejor forma de aprender que desde la pagina oficial? El superar cursos oficiales ayuda al estudiante a tener un entendimiento mas elaborado de la practica que le ocupa, uno de estos ejemplo puede ser desde gimp.org.es, university.mongodb.com, vueschool.io, elementor.com/academy... Como otras plataforma puntuales y completamente genericas, tambien podemos contar con Udemy, pluralsight...', 
+                imagen:'./src/hack.jpg',
                     diplomas:[
-                        {id:1, titulo:'Logo', fecha:'06/2021', horas:'XX', href:'./src/titulos/proyectodepentesting/logo.pdf'},
+                            {id:1, titulo:'LIBROS', fecha:'-/-', horas:'--', href:'./src/titulos/cursosoficiales/Libros.rar'},
+                            {id:2, titulo:'Gimp', fecha:'06/2021', horas:'11', href:'./src/titulos/cursosoficiales/gimp.pdf'},
+                            {id:3, titulo:'A131 Mongodb', fecha:'06/2021', horas:'2', href:'./src/titulos/cursosoficiales/A131 Mongodb.pdf'},
+                            {id:4, titulo:'M100 Mongodb', fecha:'06/2021', horas:'3', href:'./src/titulos/cursosoficiales/M100 Mongodb.pdf'},
+                            {id:6, titulo:'Vue.js 3 Fundamentals', fecha:'07/2021', horas:'2'},
+                            {id:7, titulo:'CodeIgnite', fecha:'09/2021', horas:'2,7', href:'https://codigofacilito.com/cursos/CodeIgniter'},
+
+ 
+                            // SEPARADOR PARA UDEMY
+                            {id:1, separador:'true', tituloseparador:'UDEMY', titulo:'Wordpress', fecha:'12/2020', horas:'7,5', href:'./src/titulos/cursosoficiales/Wordpress.pdf'},
+                            {id:2, titulo:'Prestashop', fecha:'06/2021', horas:'8,5', href:'./src/titulos/cursosoficiales/Prestashop.pdf'},
+                            {id:3, titulo:'Kali linux', fecha:'06/2021', horas:'2,5', href:'./src/titulos/cursosoficiales/kali.pdf'},
+                            
                             ]
                 },
+
 
 
 
@@ -98,7 +115,7 @@ new Vue({
 
 
                 // CADA DE MASTERMIND
-                {id:5, titulo:'mastermind', activate: true, descripcion:'Mastermind.ac es una plataforma Española, creada por Nate Gentile, con la idea de aprender nuevas cosas relacionadas con la informática, robótica, montaje de pc, coding, hacking... Sus profesores son iconos de influencia en España como Nate Gentile, Antonio Sarosi, Betta tech (Martín), S4vitar (Marcelo), Vitto Modder, Claudi Lázaro, Sara Nogark, Diego Laballos, Raúl Lamaso...', 
+                {id:5, titulo:'mastermind', activate: true, descripcion:'Mastermind.ac es una plataforma Española, creada por Nate Gentile, con la idea de aprender nuevas cosas relacionadas con la informática, robótica, montaje de pc, coding, hacking... Sus profesores son iconos de influencia en España como Nate Gentile, Antonio Sarosi, Betta tech (Martín), S4vitar (Marcelo), Vitto Modder, Claudi Lázaro, Sara Nogark, Diego Laballos, Raúl Lamaso, SFDX show... Solo hay seis cursos con certificados que demuestren el estado educativo orientado al entorno laboral, para conseguir estos certificados es necesario superar la calificación de ejercicios y de exámenes.', 
                 imagen:'./src/mastermind.png',
                     diplomas:[
                                                        
@@ -111,27 +128,18 @@ new Vue({
 
 
 
-                // CADA DE CURSOS OFICIALES
-                {id:6, titulo:'CURSOS OFICIALES', activate: true, descripcion:'¿Que mejor forma de aprender que desde la pagina oficial? El superar cursos oficiales ayuda al estudiante a tener un entendimiento mas elaborado de la practica que le ocupa, uno de estos ejemplo puede ser desde gimp.org.es, university.mongodb.com, vueschool.io, elementor.com/academy... Como otras plataforma puntuales y completamente genericas, tambien podemos contar con Udemy, pluralsight...', 
-                imagen:'./src/LinuxTres.png',
-                    diplomas:[
-                            {id:1, titulo:'LIBROS', fecha:'-/-', horas:'--', href:'./src/titulos/cursosoficiales/Libros.rar'},
-                            {id:2, titulo:'Gimp', fecha:'06/2021', horas:'11', href:'./src/titulos/cursosoficiales/gimp.pdf'},
-                            {id:3, titulo:'A131 Mongodb', fecha:'06/2021', horas:'2', href:'./src/titulos/cursosoficiales/A131 Mongodb.pdf'},
-                            {id:4, titulo:'M100 Mongodb', fecha:'06/2021', horas:'3', href:'./src/titulos/cursosoficiales/M100 Mongodb.pdf'},
-                            {id:6, titulo:'Vue.js 3 Fundamentals', fecha:'07/2021', horas:'2'},
-                            {id:7, titulo:'CodeIgnite', fecha:'09/2021', horas:'2,7', href:'https://codigofacilito.com/cursos/CodeIgniter'},
 
- 
-                            // SEPARADOR PARA UDEMY
-                            {id:1, separador:'true', tituloseparador:'UDEMY', titulo:'Wordpress', fecha:'12/2020', horas:'7,5', href:'./src/titulos/cursosoficiales/Wordpress.pdf'},
-                            {id:2, titulo:'Prestashop', fecha:'06/2021', horas:'8,5', href:'./src/titulos/cursosoficiales/Prestashop.pdf'},
-                            {id:3, titulo:'Kali linux', fecha:'06/2021', horas:'2,5', href:'./src/titulos/cursosoficiales/kali.pdf'},
-                            
+                // CADA DE PROYECTOS DE PENTESTING
+                {id:3, titulo:'PROYECTOS DE PENTESTING', activate: true, descripcion:'En mi tiempo libre me gusta simular ataques informaticos para aprender de seguridad informatica, programación y redes, me parece la forma de llevar todo lo aprendido al limite hasta encontrar las vulnerabilidades. Todos estos ataques han sido simulados con una Raspberry pi 400 y como sistema operativo Kali Linux.', 
+                imagen:'./src/proyecto.png',
+                    diplomas:[
+                        {id:1, titulo:'Logo', fecha:'06/2021', horas:'XX', href:'./src/titulos/proyectodepentesting/logo.pdf'},
                             ]
                 },
 
 
+
+                
 
                
             ],
