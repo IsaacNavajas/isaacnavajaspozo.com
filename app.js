@@ -98,7 +98,7 @@ new Vue({
 
 
                 // CADA DE MASTERMIND
-                {id:5, titulo:'mastermind', activate: true, descripcion:'Mastermind.ac es una plataforma Española, creada por Nate Gentile, con la idea de aprender hacer nuevas cosas relaccionadas en el mundo de la informatica, robotica, montage de pc, coding, hacking... sus profesores son los iconos de influencia en España como Nate Gentile, Antonio Sarosi, Betta tech (Martín), S4vitar (Marcelo), Vitto Modder, Claudi Lázaro, Sara Nogark, Diego Laballos, Raúl Lamaso...', 
+                {id:5, titulo:'mastermind', activate: true, descripcion:'Mastermind.ac es una plataforma Española, creada por Nate Gentile, con la idea de aprender nuevas cosas relacionadas con la informática, robótica, montaje de pc, coding, hacking... Sus profesores son iconos de influencia en España como Nate Gentile, Antonio Sarosi, Betta tech (Martín), S4vitar (Marcelo), Vitto Modder, Claudi Lázaro, Sara Nogark, Diego Laballos, Raúl Lamaso...', 
                 imagen:'./src/mastermind.png',
                     diplomas:[
                                                        
