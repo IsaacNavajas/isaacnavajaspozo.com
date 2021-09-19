@@ -112,7 +112,7 @@ new Vue({
 
 
                 // CADA DE CURSOS OFICIALES
-                {id:6, titulo:'CURSOS OFICIALES', activate: true, descripcion:'¿Que mejor forma de aprender que desde la pagina oficial? El superar cursos oficiales ayuda al estudiante a tener un entendimiento mas elaborado de la practica que le ocupa, uno de estos ejemplo puede ser desde gimp.org.es, university.mongodb.com, vueschool.io, elementor.com/academy... Como otras plataforma puntuales y completamente genericas, tambien podemos contar con Udemy, Mastermind, pluralsight...', 
+                {id:6, titulo:'CURSOS OFICIALES', activate: true, descripcion:'¿Que mejor forma de aprender que desde la pagina oficial? El superar cursos oficiales ayuda al estudiante a tener un entendimiento mas elaborado de la practica que le ocupa, uno de estos ejemplo puede ser desde gimp.org.es, university.mongodb.com, vueschool.io, elementor.com/academy... Como otras plataforma puntuales y completamente genericas, tambien podemos contar con Udemy, pluralsight...', 
                 imagen:'./src/LinuxTres.png',
                     diplomas:[
                             {id:1, titulo:'LIBROS', fecha:'-/-', horas:'--', href:'./src/titulos/cursosoficiales/Libros.rar'},
