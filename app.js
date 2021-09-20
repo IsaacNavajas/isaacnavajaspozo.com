@@ -27,9 +27,11 @@ new Vue({
                 {id:4, titulo:'TITULACIONES', activate: true, descripcion:'Titulación académica o grado académico, es una distinción dada por la institución educativa, generalmente después de la terminación exitosa del programa de estudios. ', 
                 imagen:'./src/titulaciones.jpg ',
                     diplomas:[
-                            
-                            {id:1, titulo:'CFGM Electronica', fecha:'2012', horas:'2000', },
-                            {id:2, titulo:'CFGM Teleco', fecha:'2013', horas:'2000', }
+                            {id:1, titulo:'Otros cursos', fecha:'XX', horas:'XX', href:'./src/titulos/titulos/OtrosCursos.pdf'},
+                            {id:2, titulo:'CFGM Electronica', fecha:'2012', horas:'2000', },
+                            {id:3, titulo:'CFGM Teleco', fecha:'2013', horas:'2000', },
+
+                             
                             ]
                 },
 
@@ -38,22 +40,11 @@ new Vue({
                 
 
                 // CADA DE CURSOS OFICIALES
-                {id:6, titulo:'CONGRESOS HACKTIVISTAS', activate: true, descripcion:'¿Que mejor forma de aprender que desde la pagina oficial? El superar cursos oficiales ayuda al estudiante a tener un entendimiento mas elaborado de la practica que le ocupa, uno de estos ejemplo puede ser desde gimp.org.es, university.mongodb.com, vueschool.io, elementor.com/academy... Como otras plataforma puntuales y completamente genericas, tambien podemos contar con Udemy, pluralsight...', 
+                {id:6, titulo:'CONGRESOS HACKTIVISTAS', activate: true, descripcion:'Las conferencias hackers son una reunión genericamente anual de diseñadores, ingenieros y programadores a la que solo se puede acceder por invitación para discutir los últimos desarrollos e innovaciones en la industria informática. A diario, muchos piratas informáticos solo interactúan virtualmente y por lo tanto rara vez tienen contacto cara a cara. La conferencia es un momento para que los piratas informáticos se reúnan para compartir ideas y aprender de los invitados conferenciantes. Hay varias agencias que dirigen estas conferencias hackers en las que acuden los mejores a exponer bulneravilidades, ataques, nuevas tecnologias, hadware, software... ', 
                 imagen:'./src/hack.jpg',
                     diplomas:[
-                            {id:1, titulo:'LIBROS', fecha:'-/-', horas:'--', href:'./src/titulos/cursosoficiales/Libros.rar'},
-                            {id:2, titulo:'Gimp', fecha:'06/2021', horas:'11', href:'./src/titulos/cursosoficiales/gimp.pdf'},
-                            {id:3, titulo:'A131 Mongodb', fecha:'06/2021', horas:'2', href:'./src/titulos/cursosoficiales/A131 Mongodb.pdf'},
-                            {id:4, titulo:'M100 Mongodb', fecha:'06/2021', horas:'3', href:'./src/titulos/cursosoficiales/M100 Mongodb.pdf'},
-                            {id:6, titulo:'Vue.js 3 Fundamentals', fecha:'07/2021', horas:'2'},
-                            {id:7, titulo:'CodeIgnite', fecha:'09/2021', horas:'2,7', href:'https://codigofacilito.com/cursos/CodeIgniter'},
+                        {id:1, titulo:'Harvard React', fecha:'2012', horas:'XX', href:'https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home'},
 
- 
-                            // SEPARADOR PARA UDEMY
-                            {id:1, separador:'true', tituloseparador:'UDEMY', titulo:'Wordpress', fecha:'12/2020', horas:'7,5', href:'./src/titulos/cursosoficiales/Wordpress.pdf'},
-                            {id:2, titulo:'Prestashop', fecha:'06/2021', horas:'8,5', href:'./src/titulos/cursosoficiales/Prestashop.pdf'},
-                            {id:3, titulo:'Kali linux', fecha:'06/2021', horas:'2,5', href:'./src/titulos/cursosoficiales/kali.pdf'},
-                            
                             ]
                 },
 
@@ -61,7 +52,7 @@ new Vue({
 
 
                 // CADA DE PLATZI
-                {id:2, titulo:'PLATZI', activate: true, descripcion:'Platzi gira principalmente en educación relacionada con la programación, ya que agrupa carreras y cursos que nos permitirán desde aprender a crear un servidor adecuado para nosotros hasta crear la aplicación de nuestros sueños, sus profesores son líderes en sus campos profesionales, se distinguen entre los demás integrantes de sus comunidades e industrias. Tiene su sede en San Franciso y ha sido ganador del premio a mejor empresa de formación en línea en ASU+GSV. Platzi mantiene un esquema de Carreras que agrupa una serie de cursos de diferentes áreas, al aprobar una carrera hemos adquirido conocimientos diversos que nos permitirán considerarnos un especialista en esa área, equivalentes en muchos casos a carreras universitarias.', 
+                {id:2, titulo:'PLATZI', activate: true, descripcion:'Platzi gira principalmente en educación relacionada con la programación, ya que agrupa carreras y cursos que nos permitirán desde aprender a crear un servidor adecuado para nosotros hasta crear la aplicación de nuestros sueños, sus profesores son líderes en sus campos profesionales, se distinguen entre los demás integrantes de sus comunidades e industrias. Tiene su sede en San Franciso y ha sido ganador del premio a mejor empresa de formación en línea en ASU+GSV. Platzi mantiene un esquema de Carreras que agrupa una serie de cursos de diferentes áreas, al aprobar una carrera hemos adquirido conocimientos diversos que nos permitirán considerarnos un especialista en esa área, equivalentes en muchos casos a carreras universitarias. Antes de dar las clases Platzi gestiona una y otra vez esas clases desde el lado del profesorado para que en el menor tiempo posible haya el maximo contenido, sin repeticiones y siguiendo un apartado para un comprendimiento mejor.', 
                 imagen:'./src/platzi.jpg',
                     diplomas:[
                             {id:1, titulo:'Asincronismo Javascript', fecha:'01/2021', horas:'7', href:'./src/titulos/platzi/diploma-asincronismo-js.pdf'},
@@ -121,6 +112,7 @@ new Vue({
                                                        
                              {id:1, titulo:'Linux', fecha:'07/2021', horas:'9', href:'./src/titulos/cursosoficiales/LINUX.pdf'},
                              
+
                             ]
                 },
 
