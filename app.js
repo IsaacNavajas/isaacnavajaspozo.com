@@ -43,7 +43,8 @@ new Vue({
                 {id:6, titulo:'CONGRESOS HACKTIVISTAS', activate: true, descripcion:'Las conferencias hackers son una reunión genericamente anual de diseñadores, ingenieros y programadores a la que solo se puede acceder por invitación para discutir los últimos desarrollos e innovaciones en la industria informática. A diario, muchos piratas informáticos solo interactúan virtualmente y por lo tanto rara vez tienen contacto cara a cara. La conferencia es un momento para que los piratas informáticos se reúnan para compartir ideas y aprender de los invitados conferenciantes. Hay varias agencias que dirigen estas conferencias hackers en las que acuden los mejores a exponer bulneravilidades, ataques, nuevas tecnologias, hadware, software... ', 
                 imagen:'./src/hack.jpg',
                     diplomas:[
-                        {id:1, titulo:'Harvard React', fecha:'2012', horas:'XX', href:'https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home'},
+                            {id:1, titulo:'Harvard React', fecha:'2012', horas:'XX', href:'https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home'},
+                            {id:2, titulo:'#Cybercamp19', fecha:'2019', horas:'XX', href:'https://cybercamp.es/'},
 
                             ]
                 },
