@@ -45,7 +45,7 @@ new Vue({
                     diplomas:[
                             {id:1, titulo:'Harvard React', fecha:'2012', horas:'XX', href:'https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home'},
                             {id:2, titulo:'#Cybercamp19', fecha:'2019', horas:'XX', href:'https://cybercamp.es/'},
-
+                            {id:3, titulo:'SAPPO', fecha:'2019', horas:'XX', href:'https://www.elladodelmal.com/2016/03/sappo-spear-apps-to-steal-oauth-tokens.html'},
                             ]
                 },
 
