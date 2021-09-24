@@ -42,7 +42,7 @@ new Vue({
 
 
                 // CADA DE KALI LINUX
-                {id:4, titulo:'KALI LINUX', activate: true, descripcion:'', 
+                {id:4, titulo:'KALI LINUX', activate: true, descripcion:'.', 
                 imagen:'./src/dragon4.png',
                     diplomas:[
 
