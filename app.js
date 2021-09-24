@@ -15,31 +15,21 @@ new Vue({
             diplomaturas: 
             [
 
-                // CADA DE UCAM
-                {id:5, titulo:'UCAM UNIVERSIDAD', activate: true, descripcion:'La Universidad Católica San Antonio, conocida también como Universidad Católica de Murcia (UCAM), es una universidad privada, católica, ubicada en La Ñora, pedanía del municipio de Murcia (España).', 
+                // CADA DE TITULACIONES
+                {id:5, titulo:'TITULACIONES', activate: true, descripcion:'Titulación académica o grado académico, es una distinción dada por la institución educativa, generalmente después de la terminación exitosa del programa de estudios. La Universidad Católica San Antonio, conocida también como Universidad Católica de Murcia (UCAM), es una universidad privada, católica, ubicada en La Ñora, pedanía del municipio de Murcia (España).', 
                 imagen:'./src/UCAM.jpg',
                     diplomas:[
-                        
+                        //{id:1, titulo:'Otros cursos', fecha:'XX', horas:'XX', href:'./src/titulos/titulos/OtrosCursos.pdf'},
+                            {id:1, titulo:'CFGM Electronica', fecha:'2012', horas:'2000', },
+                            {id:2, titulo:'CFGM Teleco', fecha:'2013', horas:'2000', },
+
                             ]
                 },
-
-                // CADA DE TITULACIONES
-                {id:4, titulo:'TITULACIONES', activate: true, descripcion:'Titulación académica o grado académico, es una distinción dada por la institución educativa, generalmente después de la terminación exitosa del programa de estudios. ', 
-                imagen:'./src/titulaciones.jpg ',
-                    diplomas:[
-                            {id:1, titulo:'Otros cursos', fecha:'XX', horas:'XX', href:'./src/titulos/titulos/OtrosCursos.pdf'},
-                            {id:2, titulo:'CFGM Electronica', fecha:'2012', horas:'2000', },
-                            {id:3, titulo:'CFGM Teleco', fecha:'2013', horas:'2000', },
-
-                             
-                            ]
-                },
-
 
 
                 
 
-                // CADA DE CURSOS OFICIALES
+                // CADA DE CONGRESOS HACKTIVISTAS
                 {id:6, titulo:'CONGRESOS HACKTIVISTAS', activate: true, descripcion:'Las conferencias hackers son una reunión genericamente anual de diseñadores, ingenieros y programadores a la que solo se puede acceder por invitación para discutir los últimos desarrollos e innovaciones en la industria informática. A diario, muchos piratas informáticos solo interactúan virtualmente y por lo tanto rara vez tienen contacto cara a cara. La conferencia es un momento para que los piratas informáticos se reúnan para compartir ideas y aprender de los invitados conferenciantes. Hay varias agencias que dirigen estas conferencias hackers en las que acuden los mejores a exponer bulneravilidades, ataques, nuevas tecnologias, hadware, software... ', 
                 imagen:'./src/hack.jpg',
                     diplomas:[
@@ -49,6 +39,16 @@ new Vue({
                             ]
                 },
 
+
+
+                // CADA DE KALI LINUX
+                {id:4, titulo:'KALI LINUX', activate: true, descripcion:'', 
+                imagen:'./src/dragon4.PNG',
+                    diplomas:[
+
+                             
+                            ]
+                },
 
 
 
