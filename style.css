@@ -47,7 +47,7 @@ a:hover{text-decoration: none; color:#9c3a16 !important;} a{text-decoration: non
 
 .logo{
     position:relative;
-    margin-top:80px;
+    margin-top:40px;
     margin-left:10px;
     width: 300px;
     z-index:100;
@@ -58,7 +58,8 @@ a:hover{text-decoration: none; color:#9c3a16 !important;} a{text-decoration: non
     font-size: 40px;
     font-family: 'Sacramento', cursive;
     color:#c5c5c5;
-    margin-top:-151px;
+    margin-top:-95px;
+    /*margin-top:-151px;*/
     text-align: center;
     z-index: 100;
     background: transparent;
@@ -74,6 +75,7 @@ a:hover{text-decoration: none; color:#9c3a16 !important;} a{text-decoration: non
     visibility: inherit;
     font-size: 17px;
     font-family: 'Rajdhani';
+    margin-top:-60px;
 }
 
 

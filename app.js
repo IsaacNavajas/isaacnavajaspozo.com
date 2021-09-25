@@ -110,9 +110,9 @@ new Vue({
                 {id:5, titulo:'mastermind', activate: true, descripcion:'Mastermind.ac es una plataforma Española, creada por Nate Gentile, con la idea de aprender nuevas cosas relacionadas con la informática, robótica, montaje de pc, coding, hacking... Sus profesores son iconos de influencia en España como Nate Gentile, Antonio Sarosi, Betta tech (Martín), S4vitar (Marcelo), Vitto Modder, Claudi Lázaro, Sara Nogark, Diego Laballos, Raúl Lamaso, SFDX show... Solo hay seis cursos con certificados que demuestren el estado educativo orientado al entorno laboral, para conseguir estos certificados es necesario superar la calificación de ejercicios y de exámenes.', 
                 imagen:'./src/mastermind.png',
                     diplomas:[
-                                                       
+                                                
                              {id:1, titulo:'Linux', fecha:'07/2021', horas:'9', href:'./src/titulos/cursosoficiales/LINUX.pdf'},
-                             
+                             {id:2, titulo:'Radiofrecuencia', fecha:'09/2021', horas:'4', href:'./src/titulos/cursosoficiales/radiofrecuencia.pdf'},
 
                             ]
                 },
