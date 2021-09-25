@@ -16,7 +16,7 @@ new Vue({
             [
 
                 // CADA DE TITULACIONES
-                {id:5, titulo:'TITULACIONES', activate: true, descripcion:'Titulación académica o grado académico, es una distinción dada por la institución educativa, generalmente después de la terminación exitosa del programa de estudios. La Universidad Católica San Antonio, conocida también como Universidad Católica de Murcia (UCAM), es una universidad privada, católica, ubicada en La Ñora, pedanía del municipio de Murcia (España).', 
+                {id:5, titulo:'TITULACIONES', activate: true, descripcion:'Titulación académica o grado académico, es una distinción dada por la institución educativa, generalmente después de la terminación exitosa del programa de estudios. A parte de los grados también he cursado hasta tercero de una ingeniería informatica en la Universidad Católica San Antonio, conocida también como Universidad Católica de Murcia (UCAM), es una universidad privada, católica, ubicada en La Ñora, pedanía del municipio de Murcia (España).', 
                 imagen:'./src/UCAM.jpg',
                     diplomas:[
                         //{id:1, titulo:'Otros cursos', fecha:'XX', horas:'XX', href:'./src/titulos/titulos/OtrosCursos.pdf'},
@@ -42,10 +42,10 @@ new Vue({
 
 
                 // CADA DE KALI LINUX
-                {id:4, titulo:'KALI LINUX', activate: true, descripcion:'.', 
+                {id:4, titulo:'KALI LINUX', activate: true, descripcion:'Kali Linux es una distribución basada en Debian GNU/Linux diseñada principalmente para la auditoría y seguridad informática en general. Fue fundada y es mantenida por Offensive Security Ltd. Mati Aharoni y Devon Kearns, ambos pertenecientes al equipo de Offensive Security. Estos cursos han sido estudiados en la plataforma mile-sec.com, hay nueve cursos en esta plataforma y todos tratan sobre kali linux, constan de cuatro módulos con teoría, practica y un asesoramiento del profesor por alumno. Cada examen de consultoría, Hacking ético y forense digital tiene un coste aproximado de 2.000 € con una sola oportunidad, esta acreditación es la más reconocida y recomendada para la simulación como preparatoroia y con un coste de S/ 175.   ', 
                 imagen:'./src/dragon4.png',
                     diplomas:[
-
+                            
                              
                             ]
                 },
