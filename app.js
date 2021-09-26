@@ -122,9 +122,9 @@ new Vue({
 
 
 
-                // CADA DE PROYECTOS DE PENTESTING
-                {id:3, titulo:'PROYECTOS DE PENTESTING', activate: true, descripcion:'En mi tiempo libre me gusta simular ataques informaticos para aprender de seguridad informatica, programación y redes, me parece la forma de llevar todo lo aprendido al limite hasta encontrar las vulnerabilidades. Todos estos ataques han sido simulados con una Raspberry pi 400 y como sistema operativo Kali Linux.', 
-                imagen:'./src/proyecto.png',
+                // CADA DE PROYECTOS DE HACKERS DRAGONS
+                {id:3, titulo:'HACKERS DRAGONS', activate: true, descripcion:'En mi tiempo libre me gusta simular ataques informaticos para aprender de seguridad informatica, programación y redes, me parece la forma de llevar todo lo aprendido al limite hasta encontrar las vulnerabilidades. Todos estos ataques han sido simulados con una Raspberry pi 400 y como sistema operativo Kali Linux.', 
+                imagen:'./src/hackersdragonsDos.png',
                     diplomas:[
                         {id:1, titulo:'Logo', fecha:'06/2021', horas:'XX', href:'./src/titulos/proyectodepentesting/logo.pdf'},
                             ]
