@@ -36,14 +36,15 @@ new Vue({
                             {id:1, titulo:'Harvard React', fecha:'2012', horas:'XX', href:'https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home'},
                             {id:2, titulo:'#Cybercamp19', fecha:'2019', horas:'XX', href:'https://cybercamp.es/'},
                             {id:3, titulo:'SAPPO', fecha:'2019', horas:'XX', href:'https://www.elladodelmal.com/2016/03/sappo-spear-apps-to-steal-oauth-tokens.html'},
-                            ]
+                            {id:4, titulo:'#HACKRON2020', fecha:'2020', horas:'XX', href:'https://hackron.com/es/'},
+                        ]
                 },
 
 
 
-                // CADA DE KALI LINUX
-                {id:4, titulo:'KALI LINUX', activate: true, descripcion:'Kali Linux es una distribución basada en Debian GNU/Linux diseñada principalmente para la auditoría y seguridad informática en general. Fue fundada y es mantenida por Offensive Security Ltd. Mati Aharoni y Devon Kearns, ambos pertenecientes al equipo de Offensive Security. Estos cursos han sido estudiados en la plataforma mile-sec.com, hay nueve cursos en esta plataforma y todos tratan sobre kali linux, constan de cuatro módulos con teoría, practica y un asesoramiento del profesor por alumno. Cada examen de consultoría, Hacking ético y forense digital tiene un coste aproximado de 2.000 € con una sola oportunidad, esta acreditación es la más reconocida y recomendada para la simulación como preparatoroia y con un coste de S/ 175.   ', 
-                imagen:'./src/dragon4.png',
+                // CADA DE CIBERSEGURIDAD
+                {id:4, titulo:'CIBERSEGURIDAD', activate: true, descripcion:'La ciberseguridad es la práctica de proteger sistemas, redes, webs y programas de ataques digitales. Por lo general, estos ciberataques apuntan a acceder, modificar o destruir la información confidencial; Extorsionar a los usuarios o los usuarios o interrumpir la continuidad del negocio. Dentro de este campo me he especializado en la distribución de Linux - Kali Linux, ésta es una distribución basada en Debian GNU/Linux diseñada principalmente para la auditoría y seguridad informática en general. Fue fundada y es mantenida por Offensive Security Ltd. Mati Aharoni y Devon Kearns, ambos pertenecientes al equipo de Offensive Security. Estos cursos han sido estudiados en la plataforma mile-sec.com, hay nueve cursos en esta plataforma y todos tratan sobre kali linux, constan de cuatro módulos con teoría, practica y un asesoramiento del profesor por alumno.', 
+                imagen:'./src/kalilinux.jpg',
                     diplomas:[
                             
                              
@@ -122,9 +123,9 @@ new Vue({
 
 
 
-                // CADA DE PROYECTOS DE HACKERS DRAGONS
-                {id:3, titulo:'HACKERS DRAGONS', activate: true, descripcion:'En mi tiempo libre me gusta simular ataques informaticos para aprender de seguridad informatica, programación y redes, me parece la forma de llevar todo lo aprendido al limite hasta encontrar las vulnerabilidades. Todos estos ataques han sido simulados con una Raspberry pi 400 y como sistema operativo Kali Linux.', 
-                imagen:'./src/hackersdragonsDos.png',
+                // CADA DE ingles
+                {id:3, titulo:'ENGLISH', activate: true, descripcion:'Knowing English today is very important and more for computer science.', 
+                imagen:'./src/flap.png',
                     diplomas:[
                         {id:1, titulo:'Logo', fecha:'06/2021', horas:'XX', href:'./src/titulos/proyectodepentesting/logo.pdf'},
                             ]
