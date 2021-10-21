@@ -124,10 +124,20 @@ new Vue({
 
 
                 // CADA DE ingles
-                {id:3, titulo:'ENGLISH', activate: true, descripcion:'Knowing English today is very important and more for computer science.', 
-                imagen:'./src/flap.png',
+                {id:3, titulo:'CMS', activate: true, descripcion:'Knowing English today is very important and more for computer science.', 
+                imagen:'./src/cms.png',
                     diplomas:[
-                        {id:1, titulo:'Logo', fecha:'06/2021', horas:'XX', href:'./src/titulos/proyectodepentesting/logo.pdf'},
+                        {id:1, titulo:'Wordpress', fecha:'06/2021', horas:'XX', href:'./src/titulos/cursosoficiales/wordpress.pdf'},
+                        {id:2, titulo:'Prestashop', fecha:'06/2021', horas:'XX', href:'./src/titulos/cursosoficiales/prestashop.pdf'},
+
+                            // SEPARADOR PARA PROYECTOS
+                            {id:1, separador:'true', tituloseparador:'TRABAJOS', titulo:'gamarepro.com', fecha:'XX', horas:'XX', href:'https://gamarepro.com/'},
+                            {id:2, titulo:'arenzana.com', fecha:'XX', horas:'XX', href:'https://arenzana.com/'},
+                            {id:3, titulo:'solverkey.com', fecha:'XX', horas:'XX', href:'https://solverkey.com'},
+                            {id:4, titulo:'solverkey.es', fecha:'XX', horas:'XX', href:'https://solverkey.es'},
+                            {id:5, titulo:'circularuniverse.es', fecha:'XX', horas:'XX', href:'https://circularuniverse.es'}
+                             
+
                             ]
                 },
 
