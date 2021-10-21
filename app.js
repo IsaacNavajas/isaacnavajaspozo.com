@@ -125,7 +125,7 @@ new Vue({
 
                 // CADA DE ingles
                 {id:3, titulo:'CMS', activate: true, descripcion:'Knowing English today is very important and more for computer science.', 
-                imagen:'./src/cms.png',
+                imagen:'./src/CMS.png',
                     diplomas:[
                         {id:1, titulo:'Wordpress', fecha:'06/2021', horas:'XX', href:'./src/titulos/cursosoficiales/wordpress.pdf'},
                         {id:2, titulo:'Prestashop', fecha:'06/2021', horas:'XX', href:'./src/titulos/cursosoficiales/prestashop.pdf'},
