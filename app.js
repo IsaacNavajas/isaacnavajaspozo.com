@@ -16,7 +16,7 @@ new Vue({
             [
 
                 // CADA DE TITULACIONES
-                {id:5, titulo:'TITULACIONES', activate: true, descripcion:'Titulación académica o grado académico, es una distinción dada por la institución educativa, generalmente después de la terminación exitosa del programa de estudios. A parte de los grados también he cursado hasta tercero de una ingeniería informatica en la Universidad Católica San Antonio, conocida también como Universidad Católica de Murcia (UCAM), es una universidad privada, católica, ubicada en La Ñora, pedanía del municipio de Murcia (España).', 
+                {id:5, titulo:'TITULACIONES', activate: true, descripcion:'Titulación académica o grado académico, es una distinción dada por la institución educativa, generalmente después de la terminación exitosa del programa de estudios. A parte de los grados también he cursado hasta tercero de una ingeniería informatica en la Universidad Católica San Antonio, conocida también como Universidad Católica de Murcia (UCAM), es una universidad privada, católica, ubicada en La Ñora, pedanía del municipio de Murcia (España). Para el estudio he usado la metodología PENTA: Principios, Exploración, Notas, Transmisión y Aplicación.', 
                 imagen:'./src/UCAM.jpg',
                     diplomas:[
                         //{id:1, titulo:'Otros cursos', fecha:'XX', horas:'XX', href:'./src/titulos/titulos/OtrosCursos.pdf'},
