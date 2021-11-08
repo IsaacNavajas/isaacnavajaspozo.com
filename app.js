@@ -28,18 +28,22 @@ new Vue({
                 },
 
 
-                
 
-                // CADA DE CONGRESOS HACKTIVISTAS
-                {id:6, titulo:'CONGRESOS HACKTIVISTAS', activate: true, descripcion:'Las conferencias hackers son una reunión genericamente anual de diseñadores, ingenieros y programadores a la que solo se puede acceder por invitación para discutir los últimos desarrollos e innovaciones en la industria informática. A diario, muchos piratas informáticos solo interactúan virtualmente y por lo tanto rara vez tienen contacto cara a cara. La conferencia es un momento para que los piratas informáticos se reúnan para compartir ideas y aprender de los invitados conferenciantes. Hay varias agencias que dirigen estas conferencias hackers en las que acuden los mejores a exponer bulneravilidades, ataques, nuevas tecnologias, hadware, software... ', 
-                imagen:'./src/hack.jpg',
+                                
+
+
+                // CADA DE MASTERMIND
+                {id:5, titulo:'mastermind', activate: true, descripcion:'Mastermind.ac es una plataforma Española, creada por Nate Gentile, con la idea de aprender nuevas cosas relacionadas con la informática, robótica, montaje de pc, coding, hacking... Sus profesores son iconos de influencia en España como Nate Gentile, Antonio Sarosi, Betta tech (Martín), S4vitar (Marcelo), Vitto Modder, Claudi Lázaro, Sara Nogark, Diego Laballos, Raúl Lamaso, SFDX show... Solo hay seis cursos con certificados que demuestren el estado educativo orientado al entorno laboral, para conseguir estos certificados es necesario superar la calificación de ejercicios y de exámenes.', 
+                imagen:'./src/mastermind.png',
                     diplomas:[
-                            {id:1, titulo:'Harvard React', fecha:'2012', horas:'XX', href:'https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home'},
-                            {id:2, titulo:'#Cybercamp19', fecha:'2019', horas:'XX', href:'https://cybercamp.es/'},
-                            {id:3, titulo:'SAPPO', fecha:'2019', horas:'XX', href:'https://www.elladodelmal.com/2016/03/sappo-spear-apps-to-steal-oauth-tokens.html'},
-                            {id:4, titulo:'#HACKRON2020', fecha:'2020', horas:'XX', href:'https://hackron.com/es/'},
-                        ]
+                                                
+                             {id:1, titulo:'Linux', fecha:'07/2021', horas:'9', href:'./src/titulos/cursosoficiales/LINUX.pdf'},
+                             {id:2, titulo:'Radiofrecuencia', fecha:'09/2021', horas:'4', href:'./src/titulos/cursosoficiales/radiofrecuencia.pdf'},
+
+                            ]
                 },
+
+                
 
 
 
@@ -105,21 +109,18 @@ new Vue({
                 
 
 
-                                
+                
 
-
-                // CADA DE MASTERMIND
-                {id:5, titulo:'mastermind', activate: true, descripcion:'Mastermind.ac es una plataforma Española, creada por Nate Gentile, con la idea de aprender nuevas cosas relacionadas con la informática, robótica, montaje de pc, coding, hacking... Sus profesores son iconos de influencia en España como Nate Gentile, Antonio Sarosi, Betta tech (Martín), S4vitar (Marcelo), Vitto Modder, Claudi Lázaro, Sara Nogark, Diego Laballos, Raúl Lamaso, SFDX show... Solo hay seis cursos con certificados que demuestren el estado educativo orientado al entorno laboral, para conseguir estos certificados es necesario superar la calificación de ejercicios y de exámenes.', 
-                imagen:'./src/mastermind.png',
+                // CADA DE CONGRESOS HACKTIVISTAS
+                {id:6, titulo:'CONGRESOS HACKTIVISTAS', activate: true, descripcion:'Las conferencias hackers son una reunión genericamente anual de diseñadores, ingenieros y programadores a la que solo se puede acceder por invitación para discutir los últimos desarrollos e innovaciones en la industria informática. A diario, muchos piratas informáticos solo interactúan virtualmente y por lo tanto rara vez tienen contacto cara a cara. La conferencia es un momento para que los piratas informáticos se reúnan para compartir ideas y aprender de los invitados conferenciantes. Hay varias agencias que dirigen estas conferencias hackers en las que acuden los mejores a exponer bulneravilidades, ataques, nuevas tecnologias, hadware, software... ', 
+                imagen:'./src/hack.jpg',
                     diplomas:[
-                                                
-                             {id:1, titulo:'Linux', fecha:'07/2021', horas:'9', href:'./src/titulos/cursosoficiales/LINUX.pdf'},
-                             {id:2, titulo:'Radiofrecuencia', fecha:'09/2021', horas:'4', href:'./src/titulos/cursosoficiales/radiofrecuencia.pdf'},
-
-                            ]
+                            {id:1, titulo:'Harvard React', fecha:'2012', horas:'XX', href:'https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home'},
+                            {id:2, titulo:'#Cybercamp19', fecha:'2019', horas:'XX', href:'https://cybercamp.es/'},
+                            {id:3, titulo:'SAPPO', fecha:'2019', horas:'XX', href:'https://www.elladodelmal.com/2016/03/sappo-spear-apps-to-steal-oauth-tokens.html'},
+                            {id:4, titulo:'#HACKRON2020', fecha:'2020', horas:'XX', href:'https://hackron.com/es/'},
+                        ]
                 },
-
-
 
 
 
