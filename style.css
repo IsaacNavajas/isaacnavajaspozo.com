@@ -101,7 +101,7 @@ a:hover{text-decoration: none; color:#9c3a16 !important;} a{text-decoration: non
 .cajaunica{
     position:relative;
     width: 100%;
-    height: 500px;;
+    height: 480px;;
     z-index:5;
 }
 
@@ -168,7 +168,7 @@ a:hover{text-decoration: none; color:#9c3a16 !important;} a{text-decoration: non
       position: relative;
       background-color: black;
       z-index: 200;
-        height: 465px;
+        height: 480px;
       overflow-y: scroll;
       overflow-x: hidden;
       cursor:default;
@@ -187,7 +187,7 @@ a:hover{text-decoration: none; color:#9c3a16 !important;} a{text-decoration: non
     width: 10px;
 }
 .cajanegra::-webkit-scrollbar-thumb{
-    border-radius: 500px;
+    border-radius: 480px;
     background-color: #686869;
     cursor:default;
 }
@@ -213,7 +213,7 @@ a:hover{text-decoration: none; color:#9c3a16 !important;} a{text-decoration: non
     width: 10px;
 }
 ::-webkit-scrollbar-thumb{
-    border-radius: 500px;
+    border-radius: 480px;
     background-color: #686869;
     cursor:default;
 }
