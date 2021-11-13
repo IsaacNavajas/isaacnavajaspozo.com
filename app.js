@@ -95,6 +95,7 @@ new Vue({
                             {id:31, titulo:'SQL y Mysql', fecha:'02/2021', horas:'17', href:'./src/titulos/platzi/diploma-sql-mysql.pdf'},
                             {id:32, titulo:'Vue 3', fecha:'03/2021', horas:'16', href:'./src/titulos/platzi/diploma-vuejs.pdf'},
                             {id:33, titulo:'Vue 2', fecha:'02/2021', horas:'19', href:'./src/titulos/platzi/diploma-vuejs2.pdf'},
+                            {id:34, titulo:'Seguridad informatica', fecha:'11/2021', horas:'7', href:'./src/titulos/platzi/diploma-guia-seguridad-informatica.pdf'},
 
 
 
@@ -130,6 +131,11 @@ new Vue({
                 imagen:'./src/flap.png',
                     diplomas:[
 
+
+                        
+                            // SEPARADOR PARA ESCUELA DE PLATZI ENGLISH
+                            {id:1, separador:'true', tituloseparador:'PLATZI ENGLISH ACADEMY', titulo:'Inglés para Principiantes', fecha:'11/2021', horas:'18', href:'./src/titulos/ingles/diploma-ingles-principiantes.pdf'}
+                            
 
                             ]
                 },

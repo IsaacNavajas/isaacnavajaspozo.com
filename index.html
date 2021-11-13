@@ -35,11 +35,12 @@
         <cajas></cajas>
         <h1  class="titulo">isaacnavajaspozo.com</h1>
         
-
+       <!-- crear un menu con un blog en ingles, un calendario (de google calendar y modificado el css),  --> 
        <!-- cajas de diplomaturas --> 
        <div class="separador"></div>
+       
        <button type="submit" class="button btn btn-secondary col-12" @click="show = !show">Ver diplomaturas</button> <!-- quitar en ordenador y poner en mobil y quitar el texto en mobil -->
-       <p class="subtitulo col-12">Presiona cntrl + click izquierdo para ver/descargar las diplomaturas.</p>
+       <p class="subtitulo col-12">Presiona ctrl + click izquierdo para ver/descargar las diplomaturas.</p>
 
         
         <div class="col-12 col-sm-12 col-md-4 caja " v-for="d in diplomaturas" :key="d.id">
@@ -56,6 +57,7 @@
               <p class="descripcion">
                 {{ d.descripcion }}
             </p> 
+            
             
       
       <!-- diplomas --> 
